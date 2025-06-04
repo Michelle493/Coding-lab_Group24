@@ -21,9 +21,9 @@ A Linux-based system use to;
    python3 water_meter.py start
 
         ./archive_logs.sh
-        ./analyze_logs.sh
-------------------------------------------------------------------------
-Directory Structure
+        ./analyze_logs.sh```
+
+## Directory Structure
 hospital_data/
   active_logs/
   heart_data_archive/
