@@ -1,16 +1,16 @@
 ## Table Of Centent
-  *Project Overview*
-        1) How to use it
-        2) Directory structure
-        3) Collaborators
+  *Project Overview
+1) How to use it
+2) Directory structure
+3) Collaborators
 
 # Hospital Data Monitoring, and achival system
 
  *Project Overview*
 A Linux-based system use to;
-        1) Collect real-time patient health metrics and resource usage data
-        2) Provide controlled log archiving with user selection
-        3) Generate analytical reports with device statistics and temporal patterns
+1) Collect real-time patient health metrics and resource usage data
+2) Provide controlled log archiving with user selection
+3) Generate analytical reports with device statistics and temporal patterns
 
 ## How to use it
 
@@ -22,8 +22,8 @@ A Linux-based system use to;
 
         ./archive_logs.sh
         ./analyze_logs.sh
-
-## Directory Structure
+------------------------------------------------------------------------
+Directory Structure
 hospital_data/
   active_logs/
   heart_data_archive/
@@ -31,11 +31,10 @@ hospital_data/
   water_data_archive/
   reports/
 
-## Collaborators
+Collaborators
 
-*Coding-lab_Group24*
-        1) Angel Umukundwa
-        2) Hategekimana Eric
-        3) Michelle Oluwayemisis Odusanwo
-        4) Andrew Thon Riem Alier
-
+Coding-lab_Group24
+ 1) Angel Umukundwa
+ 2) Hategekimana Eric
+ 3) Michelle Oluwayemisis Odusanwo
+ 4) Andrew Thon Riem Alier
