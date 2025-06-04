@@ -32,9 +32,8 @@ hospital_data/
   water_data_archive/
   reports/
 
-Collaborators
-
-Coding-lab_Group24
+## Collaborators
+**Coding-lab_Group24*
  1) Angel Umukundwa
  2) Hategekimana Eric
  3) Michelle Oluwayemisis Odusanwo
