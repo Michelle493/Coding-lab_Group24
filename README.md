@@ -35,14 +35,14 @@ cd Coding-lab_Group24
 
 ## Directory Structure
 hospital_data/
-  active_logs/
-  heart_data_archive/
-  temperature_data_archive/
-  water_data_archive/
-  reports/
+active_logs/
+heart_data_archive/
+temperature_data_archive/
+water_data_archive/
+reports/
 
 ## Collaborators
-**Coding-lab_Group24*
+*Coding-lab_Group24*
  1) Angel Umukundwa
  2) Hategekimana Eric
  3) Michelle Oluwayemisis Odusanwo
