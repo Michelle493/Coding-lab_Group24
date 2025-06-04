@@ -35,7 +35,7 @@ cd Coding-lab_Group24
 
 ## Directory Structure
 hospital_data/
-active_logs/
+ |--active_logs/
 heart_data_archive/
 temperature_data_archive/
 water_data_archive/
