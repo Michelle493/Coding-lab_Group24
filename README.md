@@ -34,12 +34,8 @@ cd Coding-lab_Group24
 ```
 
 ## Directory Structure
-hospital_data/
- |--active_logs/
-heart_data_archive/
-temperature_data_archive/
-water_data_archive/
-reports/
+![image-dafd3a1f-329e-4cfd-9706-85808114e438](https://github.com/user-attachments/assets/a9ae49e3-76db-4252-979c-7109835d9885)
+
 
 ## Collaborators
 *Coding-lab_Group24*
