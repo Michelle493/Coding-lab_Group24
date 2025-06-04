@@ -1,18 +1,27 @@
 ## Table Of Centent
-  *Project Overview
-1) How to use it
-2) Directory structure
-3) Collaborators
+1) Project Overview
+2) How to use it
+3) Directory structure
+4) Collaborators
 
 # Hospital Data Monitoring, and achival system
 
- *Project Overview*
+*Project Overview*
 A Linux-based system use to;
 1) Collect real-time patient health metrics and resource usage data
 2) Provide controlled log archiving with user selection
 3) Generate analytical reports with device statistics and temporal patterns
 
 ## How to use it
+*Clone the repo:*
+```bash
+git clone https://github.com/Michelle493/Coding-lab_Group24
+```
+
+*move into Coding-lab_Group24 repository:*
+```bash
+cd Coding-lab_Group24
+```
 
 *Run device simulators*
  ```bash
