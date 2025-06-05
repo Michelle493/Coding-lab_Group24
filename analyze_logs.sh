@@ -9,9 +9,9 @@
 
 # creating variables for file paths
 
-HEART_RATE_LOG="hospital_data/active_logs/heart_rate.log"
-TEMPERATURE_LOG="hospital_data/active_logs/temperature.log"
-WATER_USAGE_LOG="hospital_data/active_logs/water_usage.log"
+HEART_RATE_LOG="hospital_data/active_logs/heart_rate_log.log"
+TEMPERATURE_LOG="hospital_data/active_logs/temperature_log.log"
+WATER_USAGE_LOG="hospital_data/active_logs/water_usage_log.log"
 ANALYSIS_REPORT="hospital_data/reports/analysis_report.txt"
 
 
@@ -20,9 +20,9 @@ ANALYSIS_REPORT="hospital_data/reports/analysis_report.txt"
 display_menu() {
     echo ""
     echo "Select log file to analyze:"
-    echo "1) Heart Rate ($HEART_RATE_LOG)"
-    echo "2) Temperature ($TEMPERATURE_LOG)"
-    echo "3) Water Usage ($WATER_USAGE_LOG)"
+    echo "1) Heart Rate "
+    echo "2) Temperature "
+    echo "3) Water Usage "
     echo -n "Enter choice (1-3): "
     echo ""
 }
@@ -83,7 +83,10 @@ if [ ! -f "$LOG_FILES" ]; then
 fi
 {
 # if file exist, then we print echo for the user that analysis proccess has started
+echo ""
+echo ""
 echo "--- Analysis Report for $LOG_NAME ($LOG_FILES) ---"
+echo ""
 echo "Generated on: "$(date +'%Y-%m-%d_%H:%M:%S')""
 echo ""
 # Use awk to process the log file
@@ -91,12 +94,16 @@ echo ""
 
 echo "---------- $LOG_NAME analysis -------" 
 echo ""
+echo ""
 echo "Counts of accurrances for each Device"
 echo "-------------------------------------"
 echo ""
 awk '{print $3}' "$LOG_FILES" | sort | uniq -c
+echo ""
+echo ""
 echo "Fist recorded entry:"
 head -n 1 $LOG_FILES
+echo ""
 echo ""
 echo "Last recorded entry:"
 tail -n 1 $LOG_FILES
