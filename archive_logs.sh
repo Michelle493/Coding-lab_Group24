@@ -17,7 +17,19 @@ echo "Select log file to archive: "
 echo "1) Heart Rate "
 echo "2) Temperature "
 echo "3) Water Usage "
-read -p "Enter you choice(1/2/3): " user_input
+
+#this will check if user input is correct. if it's not, ask him again
+
+while true; do
+	read -p "Enter you choice(1/2/3): " user_input
+	if [[ "$user_input" =~ ^[1-3]$ ]]; then
+		echo "You choose: $user_input"
+		break
+	else
+		echo "Invalid input! Plase enter 1, 2, or 3 "
+	fi
+done
+
 
 
 
